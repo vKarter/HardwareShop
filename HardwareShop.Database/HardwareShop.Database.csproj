@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HSDbContext.cs" />
+    <Compile Include="HSDbInitializer.cs" />
     <Compile Include="Migrations\201712190812065_Initial.cs" />
     <Compile Include="Migrations\201712190812065_Initial.Designer.cs">
       <DependentUpon>201712190812065_Initial.cs</DependentUpon>

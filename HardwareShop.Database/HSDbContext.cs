@@ -13,6 +13,11 @@ namespace HardwareShop.Database
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<OrderStatus> OrderStatuses { get; set; }
 
+        public HSDbContext() : base("HSDbContext")
+        {
+            System.Data.Entity.Database.SetInitializer(new HSDbInitializer());
+        }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // wylaczenie tworzenia form mnogich

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="947e6e00-be75-4ed2-a485-3b30a1feafef" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9898/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="1b40b226-c864-4d7a-bf8d-1ac3cfd85b04" SourceId="1" SourceUrl="http://localhost:9898/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="89a877ef-3525-4443-99b0-fce770a46195" SourceId="1" SourceUrl="http://localhost:9898/?xsd=xsd1" />
+    <MetadataFile FileName="HSService.wsdl" MetadataType="Wsdl" ID="6898d9b6-89f9-41ee-8f19-a2f52443bf0e" SourceId="1" SourceUrl="http://localhost:9898/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="e21d465e-c864-4056-b45f-054e2b41f6a9" SourceId="1" SourceUrl="http://localhost:9898/?disco" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="fc1b610a-16db-41bc-8229-ddd7c35d5164" SourceId="1" SourceUrl="http://localhost:9898/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
